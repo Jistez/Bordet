@@ -8,13 +8,13 @@ public class uppgift36 {
 
 		int tid, min, sek, tim;
 
-		String s = JOptionPane.showInputDialog("Hur många sekunder?");
+		String s = JOptionPane.showInputDialog("Hur mÃ¥nga sekunder?");
 		tid = Integer.parseInt(s);
 		tim = tid / 3600;
 		tid = tid % 3600;
 		min = tid / 60;
 		tid = tid % 60;
-		sek = tid / 60;
+		sek = tid;
 		JOptionPane.showMessageDialog(null, "Det tog: " + tim + "tim " + min + "min " + sek + "sek");
 
 	}
